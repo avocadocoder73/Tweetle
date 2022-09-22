@@ -1,0 +1,74 @@
+.overlay1
+{
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+}
+.container1
+{
+    position: relative;
+    top: 10%;
+        margin:auto;
+        height: 500px;
+            width: 500px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 50px;
+        z-index: 1000;
+        animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.close
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.how2play
+{
+    margin: auto;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.how2playcont
+{
+    display: flex;
+}
+.textin
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imageholder
+{
+    display: flex;
+}
+#img1
+{
+    height: 50%;
+    width: 50%;
+}
+#img2
+{
+    height: 50%;
+    width: 50%;
+}
+.textin2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#twitter
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

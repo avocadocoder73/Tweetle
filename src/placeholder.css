@@ -1,0 +1,98 @@
+.box1
+{
+   width: 40%;
+   height: 50px; 
+   background: white;
+    border: 2px solid rgba(0, 0, 0, 0.35);
+   margin: auto;
+   align-items: center;
+border-radius: 3px;
+font-size: 2vw;
+font-weight: 500;
+font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+}
+.box2   
+{
+width: 40%;
+    height: 50px;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    margin: auto;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 2vw;
+        font-weight: 500;
+        font-family: 'Segoe UI',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
+}
+.box3
+{
+    width: 40%;
+        height: 50px;
+        background: white;
+        border: 2px solid rgba(0, 0, 0, 0.35);
+        margin: auto;
+        align-items: center;
+        border-radius: 3px;
+font-size: 2vw;
+    font-weight: 500;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+}
+
+.box4
+{
+    width: 40%;
+        height: 50px;
+        background: white;
+        border: 2px solid rgba(0, 0, 0, 0.35);
+        margin: auto;
+        align-items: center;
+        border-radius: 3px;
+    font-size: 2vw;
+        font-weight: 500;
+        font-family: 'Segoe UI',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
+}
+.box5
+{
+    width: 40%;
+        height: 50px;
+        background: white;
+        border: 2px solid rgba(0, 0, 0, 0.35);
+        margin: auto;
+        align-items: center;
+        border-radius: 3px;
+    font-size: 2vw;
+        font-weight: 500;
+        font-family: 'Segoe UI',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
+}
+
+.placewrap
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 390px;
+    text-align: center;
+    font-size: 30px;
+    
+}

@@ -1,0 +1,176 @@
+.overlay{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+
+
+}
+
+.container{
+
+position: relative;
+top: 10%;
+margin: auto;
+height: 500px;
+width: 500px;
+background-color: white;
+padding: 50px;
+z-index: 1000;
+animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.container2
+{
+    display:flex;
+    justify-content: right;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1DA1F2;
+}
+.timeleft
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.attempts
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1DA1F2;
+    display: flex;
+  
+    font-size: 200%;    
+    font-weight: 500;
+}
+.numcontainer
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30%;
+    font-weight: 600;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+.percent
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #1DA1F2;
+     font-size: 200%;
+     font-weight: 500;
+    
+    
+}
+.statcontain
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sharecontainer
+{
+    display: flex;
+    height: 50%;
+    align-self: flex-end;
+    justify-content: center;
+}
+.streaknum
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #1DA1F2;
+        font-size: 200%;
+        font-weight: 500;
+    
+}
+.containercontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.attemptcontainer
+{
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.streakcontainer
+{
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wincontainer
+{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.streak
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.attempts2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.winpercent
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sharecontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share
+{
+    display: flex;
+    width: 30%;
+    background-color: green;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.sharetext
+{
+    display: flex;
+}
+#statusmsg  
+{
+    position: absolute;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    
+    
+}
