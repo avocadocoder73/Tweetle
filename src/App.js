@@ -9,7 +9,7 @@ import './inputbox.css'
 import './placeholder.css'
 import Popup from "./Popup";
 import './Hint.css'
-import { set } from "countapi-js";
+
 
 
 
@@ -262,13 +262,14 @@ else
 function getTweet(){
 
 
-axios.get('https://tweetleserver.herokuapp.com/').then(res => {
+axios.get("https://reverseproxxy-hkkv.vercel.app/").then(res => {
 
 //https://tweetleserver.herokuapp.com/
 
-setTweet(res.data.data.id);
-setAnswer(res.data.includes.users[0].name);
-setAnswer2(res.data.includes.users[0].username);
+
+setTweet(res.data.tweet.data.id);
+setAnswer(res.data.tweet.includes.users[0].name);
+setAnswer2(res.data.tweet.includes.users[0].username);
 
 console.log(document.getElementsByClassName('css-1dbjc4n r-18u37iz r-1t982j2')[0])
 
