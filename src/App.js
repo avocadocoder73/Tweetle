@@ -276,7 +276,8 @@ console.log(document.getElementsByClassName('css-1dbjc4n r-18u37iz r-1t982j2')[0
 return ;
 })
 .catch(err => {
-  console.log(err)
+  
+  getTweet();
   return 
 })
 
