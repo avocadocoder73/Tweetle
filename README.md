@@ -1,6 +1,6 @@
 # Tweetle - a tweet guessing game!
 
-Edit: Tweetle is now deprecated thanks for playing!
+Edit: Tweetle is now discontinued thanks for playing!
 
 
 
